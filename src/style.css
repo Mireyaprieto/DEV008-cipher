@@ -1,0 +1,21 @@
+body{
+  background-image:url("https://data.pixiz.com/output/user/frame/preview/api/big/8/0/0/6/2376008_ab470.jpg");
+  font-size: 20px;
+  text-align: center;
+  background-repeat: no-repeat; 
+  background-position: center center;
+}
+h1{
+   color: #7A5018;
+  font-size:60px;
+  font-family: 'Foldit', cursive;
+}
+.pergamino{
+  position: absolute;
+ margin: -100% -70%;
+ width: 150%;
+}
+
+
+
+   
