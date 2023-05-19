@@ -1,19 +1,19 @@
 const cipher ={
 
-  encode: (texto,offset) => {
+  encode: (offset,texto) => {
+         
     let resultado="";
     for (let i = 0; i < texto.length; i++) {
       // código ASCII
       const letras = (texto.charCodeAt(i) - 65 + parseInt(offset)) % 26 + 65;
       //Concatenando letras codificadas
       resultado += String.fromCharCode(letras);
-   
       
-      
-    } 
-    return resultado;
+    }
+    return  resultado;
   },
-  decode: (texto, offset) => {
+  decode: (offset,texto) => {
+  
     let resultado = "";
     for (let i = 0; i < texto.length; i++) {
 
@@ -22,11 +22,12 @@ const cipher ={
       //Concatenando las letras decodificadas
       resultado += String.fromCharCode(letras);
       
+
     }
+  
     return resultado;
 
   },
-
-    
-}
+  
+};
 export default cipher;

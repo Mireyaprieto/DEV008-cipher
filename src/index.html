@@ -16,18 +16,20 @@
       <div class="seccion">
         <header>
           <h1><strong>CIFRADO CESAR</strong></h1>
-          <h2>Encripta y Desencripta tus mensajes</h2>
+          <h2>Cifrar y Descifrar tus mensajes</h2>
         </header>
 
         <section id="encode">
-          <h2>Escribe tu mensaje a encriptar</h2>
+          <h2>Escribe tu mensaje a Cifrar</h2>
           <textarea
             id="mensaje1"
             type="text"
+            pattern="[A-Z]*"
             cols="40"
             rows="8"
             placeholder="Ingresa tu mensaje  aquí"
             maxlength="200"
+            
           ></textarea>
           <h5>LLAVE:</h5>
           <input
@@ -38,8 +40,8 @@
             max="40"
             oninput="this.nextElementSibling.value= this.value"/>
           <output>10</output>
-          <button id="btnCifrar">ENCRIPTAR</button>
-          <button id="btnDecifrar">DESENCRIPTAR</button>
+          <button id="btnCifrar">CIFRAR</button>
+          <button id="btnDecifrar">DESCIFRAR</button>
 
           <h2>Tu mensaje cifrado:</h2>
 
@@ -48,7 +50,7 @@
             type="text"
             cols="40"
             rows="8"
-            placeholder="Aquí optendras tu mensaje encriptado"
+            placeholder="Aquí optendras tu mensaje CIFRADO"
             maxlength="200"
           ></textarea>
         </section>
