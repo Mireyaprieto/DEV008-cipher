@@ -19,10 +19,12 @@ window.onload = function() {
   
 
   btnDecifrar.addEventListener('click', function () {
-    const texto = document.getElementById("mensaje2").value.toUpperCase();
+    const texto = document.getElementById("mensaje1").value.toUpperCase();
     const offset = document.getElementById("numb").value;
     const decodeTexto = cipher.decode(offset,texto);
-    document.getElementById("mensaje1").value = decodeTexto;
+    document.getElementById("mensaje2").value = decodeTexto;
+   
+
 
   });
 

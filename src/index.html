@@ -8,56 +8,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <main>
-      <div class="seccion">
-        <header>
-          <h1><strong>CIFRADO CESAR</strong></h1>
-          <h2>Cifrar y Descifrar tus mensajes</h2>
-        </header>
+      <header>
+        <h1><strong>CIFRADO CESAR</strong></h1>
+        <h2>Cifrar y Descifrar tus mensajes</h2>
+      </header>
 
-        <section id="encode">
-          <h2>Escribe tu mensaje a Cifrar</h2>
-          <textarea
-            id="mensaje1"
-            type="text"
-            pattern="[A-Z]*"
-            cols="40"
-            rows="8"
-            placeholder="Ingresa tu mensaje  aquí"
-            maxlength="200"
-            
-          ></textarea>
-          <h5>LLAVE:</h5>
-          <input
-            id="numb"
-            type="range"
-            value="10"
-            min="1"
-            max="40"
-            oninput="this.nextElementSibling.value= this.value"/>
-          <output>10</output>
-          <button id="btnCifrar">CIFRAR</button>
-          <button id="btnDecifrar">DESCIFRAR</button>
+      <h2>Escribe tu mensaje a Cifrar</h2>
+      <textarea
+        id="mensaje1"
+        type="text"       
+        cols="40"
+        rows="8"
+        placeholder="Ingresa tu mensaje  aquí"
+        maxlength="200"
+      ></textarea>
+      <h5># de dezplazamiento:</h5>
+      <input
+        id="numb"
+        type="range"
+        value="1"
+        min="1"
+        max="40"
+        oninput="this.nextElementSibling.value= this.value"
+      />
+      <output>1</output>
+      <button id="btnCifrar">CIFRAR</button>
+      <button id="btnDecifrar">DESCIFRAR</button>
 
-          <h2>Tu mensaje cifrado:</h2>
+      <h2>Tu mensaje cifrado:</h2>
 
-          <textarea
-            id="mensaje2"
-            type="text"
-            cols="40"
-            rows="8"
-            placeholder="Aquí optendras tu mensaje CIFRADO"
-            maxlength="200"
-          ></textarea>
-        </section>
+      <textarea
+        id="mensaje2"
+        type="text"
+        cols="40"
+        rows="8"
+        placeholder="Aquí optendras tu mensaje CIFRADO"
+        maxlength="200"
+      ></textarea>
 
-        
-        <div><script src="index.js" type="module"></script></div>
-      </div>
+      <div><script src="index.js" type="module"></script></div>
     </main>
   </body>
 </html>
