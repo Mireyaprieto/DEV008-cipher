@@ -4,6 +4,7 @@ Cifrar significa ocultar el contenido de un mensaje a simple vista, de manera qu
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
+
 # principales usuarios de producto
 
 Este producto esta hecho  para  cualquier usuario que quiera enviar un  mensaje cifrado o quiera decifrar un mensaje.
