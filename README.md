@@ -16,4 +16,4 @@ el odjetivo de esta pagina es  es que los usuarios se puedan comunicar de manera
 
  * una seccion consta de escribir el texto que quiere codificar, y para codificar bebe darle el rango de numeros que quiere  que se codifique el  mensaje.
 
-  * en la siguiente seccion   esta el mensaje ya codificado  y para descodificar copiamos el mensaje  en la primera seccion   le damos un rago para decodificar,  y ya en la segunda seccion esta el mensaje  descodificado. **
+  * en la siguiente seccion   esta el mensaje ya codificado  y para descodificar copiamos el mensaje  en la primera seccion   le damos un rago para decodificar,  y ya en la segunda seccion esta el mensaje  descodificado. 
